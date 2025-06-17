@@ -4,7 +4,7 @@ function Pricing() {
   return (
     <div style={{ padding: 20 }}>
       <h1>Pricing</h1>
-      <p>£9.99/month for full access.</p>
+      <p>Subscribe for £9.99/month to unlock premium map monetization tools.</p>
     </div>
   );
 }
