@@ -1,12 +1,10 @@
 import React from "react";
 
-function Dashboard() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>Your Creator Dashboard</h1>
-      <p>View your map stats, earnings, and manage your Fortnite Creator Code.</p>
-    </div>
-  );
-}
+const Dashboard = () => (
+  <div>
+    <h2>Dashboard</h2>
+    <p>(Map views, earnings and Stripe integration will be shown here.)</p>
+  </div>
+);
 
 export default Dashboard;

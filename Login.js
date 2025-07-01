@@ -1,16 +1,10 @@
 import React from "react";
 
-function Login() {
-  return (
-    <div style={{ padding: 20 }}>
-      <h1>Login</h1>
-      <form>
-        <input type="email" placeholder="Email" /><br/><br/>
-        <input type="password" placeholder="Password" /><br/><br/>
-        <button type="submit">Login</button>
-      </form>
-    </div>
-  );
-}
+const Login = () => (
+  <div>
+    <h2>Login Page</h2>
+    <p>(Authentication functionality will go here.)</p>
+  </div>
+);
 
 export default Login;
